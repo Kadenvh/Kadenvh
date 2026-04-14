@@ -10,7 +10,7 @@
 
 ---
 
-> I build production AI systems that automate expert workflows. Not demos, not prototypes. Systems that run daily under real operational constraints.
+> I build production AI systems that automate expert workflows.
 
 ## 🧰 Tech Stack
 
@@ -18,45 +18,25 @@
 
 *Also:* C#, C/C++, SQL, .NET / COM Interop, YOLO, ChromaDB, Git / GitHub, SOLIDWORKS, Computer Vision, Automation, CAD / Mechanical Engineering
 
-## 🚀 Featured Projects
+## 🚀 Featured Work
 
-### CloudBooks
+**CloudBooks** — 25-table multi-tenant Supabase SaaS with RLS, Stripe feature-gated billing, BYOK AI insights, and QuickBooks Online OAuth2 sync. Live on Cloudflare Pages. → [cb.vhtech.me](https://cb.vhtech.me) <sub>· React 18 · TypeScript · Tailwind CSS · Vite · Zustand · TanStack Query</sub>
 
-> 25-table multi-tenant Supabase SaaS with RLS, Stripe feature-gated billing, BYOK AI insights, and QuickBooks Online OAuth2 sync. Live on Cloudflare Pages.
+**McQueenyML** — Production HVAC estimating platform running daily on McQueeny Group's Windows servers. 5 manufacturer parsers, 195 scope templates, 419 tracked projects, Ollama lifecycle analyzer, real-time R:\ drive watcher. <sub>· React · TypeScript · Vite · Tailwind CSS · Python 3.11 · FastAPI</sub>
 
-Multi-tenant task tracking and business management SaaS for informal employers: property owners, parents, and anyone running real work without a formal business entity. React 18 + TypeScript + Tailwind on Vite 6, backed by Supabase Cloud with RLS on 25 tables, Realtime subscriptions, and 9 Edge Functions. 21 domain service modules, pgcrypto-encrypted AI keys and OAuth tokens, Stripe subscription billing gated at the database via the check_feature_limit RPC, and QuickBooks Online OAuth2 with bidirectional sync. 288 unit and 61 Playwright E2E tests, GitHub Actions CI/CD, PWA installable, deployed to Cloudflare Pages.
+**Adze: AI for SOLIDWORKS** — In-process SOLIDWORKS COM add-in with 18 typed tools, an agentic loop, and governed writes across 5 AI providers. → [Kadenvh/adze-cad](https://github.com/Kadenvh/adze-cad) <sub>· C# .NET 4.8 · SOLIDWORKS COM API · NUnit 3 · MSBuild · PowerShell · WinForms WebBrowser</sub>
 
-**Stack:** React 18, TypeScript, Tailwind CSS, Vite, Zustand, TanStack Query, React Router v6, Supabase Auth · PostgreSQL, Vitest, Playwright, pg_cron
+**Oracle (Trade Signal)** — Learned its own BUY signals are anti-predictive and inverted them into a 62.8% win rate contrarian short engine: 5 cortexes, 2,987 predictions, $499K paper portfolio <sub>· Python 3.13 (miniconda3) · FastAPI · SQLite · TensorFlow · PyTorch · transformers (FinBERT)</sub>
 
-🌐 [cb.vhtech.me](https://cb.vhtech.me)
+→ Full case studies and portfolio at **[vhtech.me](https://vhtech.me)**
 
-### McQueenyML
+## 🔭 Currently Building
 
-> Production HVAC estimating platform running daily on McQueeny Group's Windows servers. 5 manufacturer parsers, 195 scope templates, 419 tracked projects, Ollama lifecycle analyzer, real-time R:\ drive watcher.
+- SPDRbot closed-loop gait controller.
+- OpenBCI EEG pipeline.
+- Adze public repo + case study (portfolio piece, SOLIDWORKS partnership).
 
-Parses manufacturer pricing sheets (Armstrong XML, WaterFurnace, Condair, Marlo, Johnson Controls PDFs) into formatted Excel workbooks, matches line items against 195 product scope templates through a deterministic-first pipeline (pattern, fuzzy, pgvector embedding, then AI fallback), and generates MGI or JCI Word scope documents. React 18 + TypeScript frontend, Python 3.11 + FastAPI backend, PostgreSQL via Supabase with pg_trgm and pgvector, and Ollama Qwen3 14B for project lifecycle analysis. A real-time R:\ drive filesystem watcher correlates events to 419 SharePoint-synced projects, 3063 PSR equipment orders, and a 394K-row network drive file index. 7 NSSM Windows services run the stack in production, fronted by Cloudflare Tunnel with LAN-routing bypass for uploads over 100MB. ~111 API endpoints across 21 routers, 223 pytest and 55 vitest tests.
-
-**Stack:** Frontend: React · TypeScript · Vite · Tailwind CSS. Backend: Python 3.11 · FastAPI · uvicorn. Database: PostgreSQL via Supabase (pg_trgm · pgvector). ML: Ollama (qwen3:14b, nomic-embed-text). Infrastructure: 7 NSSM services on Windows 11, Cloudflare Tunnel.
-
-### Adze — AI for SOLIDWORKS
-
-> Native in-process AI assistant for SOLIDWORKS with 19 typed grounding tools and governed write safety
-
-AI design assistant that runs inside SOLIDWORKS as a COM add-in, not alongside it. 19 typed grounding tools read live CAD sessions (dimensions, mates, mass properties, BOM). 8-step governed safety lifecycle for write operations ensures AI modifications are reversible and auditable. Built in C# on .NET with the SOLIDWORKS API. SOLIDWORKS Solution Partner Program application in progress.
-
-**Stack:** C# .NET 4.8, SOLIDWORKS COM API, NUnit 3, MSBuild, PowerShell, WinForms WebBrowser
-
-🌐 [github.com/kadenvh/adze-cad](https://github.com/kadenvh/adze-cad) &nbsp;·&nbsp; 💻 [adze-cad](https://github.com/adze-cad)
-
-### Oracle (Trade Signal)
-
-> Learned its own BUY signals are anti-predictive and inverted them into a 62.8% win rate contrarian short engine: 5 cortexes, 2,987 predictions, $499K paper portfolio
-
-Self-directed market analysis system that generates testable hypotheses, backtests them against historical data, and manages a $499K paper portfolio behind 8 risk gates. Five cortexes (LSTM, FinBERT sentiment, Perplexity LLM deep analysis, rules-based momentum, and a local indicator ensemble) feed an adaptive-weight Oracle brain that reweights across 12 market regimes. The distinctive finding, surfaced by 2,987 logged predictions with outcome tracking, is that the system's own BUY signals are anti-predictive for going long at 27% accuracy but produce a 62.8% win rate as contrarian shorts with 2:1 W/L ratio. A multi-venue adapter layer (Alpaca equities wired live, plus verified fee models for Coinbase, Polymarket, and Kalshi) routes signals to whichever venue fits. Python 3.13, FastAPI, SQLite WAL, systemd daemons, Sentry observability, 506 tests across 22 files.
-
-**Stack:** Python 3.13 (miniconda3), FastAPI, SQLite, TensorFlow, PyTorch, transformers (FinBERT), React/TypeScript/Tailwind (ava_hub UI)
-
-## 📊 Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -68,12 +48,6 @@ Self-directed market analysis system that generates testable hypotheses, backtes
 </div>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kadenvh&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="activity" />
-
-## 🔭 Currently Building
-
-- SPDRbot closed-loop gait controller.
-- OpenBCI EEG pipeline.
-- Adze public repo + case study (portfolio piece, SOLIDWORKS partnership).
 
 ## 📫 Contact
 
