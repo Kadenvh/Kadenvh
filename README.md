@@ -22,11 +22,11 @@
 
 **CloudBooks** — 25-table multi-tenant Supabase SaaS with RLS, Stripe feature-gated billing, BYOK AI insights, and QuickBooks Online OAuth2 sync. Live on Cloudflare Pages. → [cb.vhtech.me](https://cb.vhtech.me) <sub>· React 18 · TypeScript · Tailwind CSS · Vite · Zustand · TanStack Query</sub>
 
-**McQueenyML** — Production HVAC estimating platform running daily on McQueeny Group's Windows servers. 5 manufacturer parsers, 195 scope templates, 419 tracked projects, Ollama lifecycle analyzer, real-time R:\ drive watcher. <sub>· React · TypeScript · Vite · Tailwind CSS · Python 3.11 · FastAPI</sub>
+**McQueenyML** — Production HVAC estimating platform running daily on McQueeny Group's Windows servers. 5 manufacturer parsers, 195 scope templates, 419 tracked projects, Ollama lifecycle analyzer, real-time R:\ drive watcher. <sub>· Frontend: React · TypeScript · Vite · Tailwind CSS. Backend: Python 3.11 · FastAPI · uvicorn. Database: PostgreSQL via Supabase (pg_trgm</sub>
 
 **Adze: AI for SOLIDWORKS** — In-process SOLIDWORKS COM add-in with 18 typed tools, an agentic loop, and governed writes across 5 AI providers. → [Kadenvh/adze-cad](https://github.com/Kadenvh/adze-cad) <sub>· C# .NET 4.8 · SOLIDWORKS COM API · NUnit 3 · MSBuild · PowerShell · WinForms WebBrowser</sub>
 
-**Oracle (Trade Signal)** — Learned its own BUY signals are anti-predictive and inverted them into a 62.8% win rate contrarian short engine: 5 cortexes, 2,987 predictions, $499K paper portfolio <sub>· Python 3.13 (miniconda3) · FastAPI · SQLite · TensorFlow · PyTorch · transformers (FinBERT)</sub>
+**Oracle (Trade Signal)** — Systematic trading research platform: 5 cortexes, 2,987 logged predictions, $499K paper portfolio, adaptive-weight regime model across 12 market regimes. <sub>· Python 3.13 (miniconda3) · FastAPI · SQLite · TensorFlow · PyTorch · transformers (FinBERT)</sub>
 
 → Full case studies and portfolio at **[vhtech.me](https://vhtech.me)**
 
