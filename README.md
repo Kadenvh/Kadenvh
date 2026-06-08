@@ -1,8 +1,8 @@
 ### Hi, I'm Kaden VanHoecke 👋
 
-**Founder, VHTech LLC | ML Engineer | AI Systems & Automation**
+**ML Engineer | Production AI Systems, Applied ML, and Industrial Automation**
 
-ML Engineer. Founder of VHTech LLC. Ship production AI systems that run daily under real operational constraints. 
+ML Engineer | Production AI Systems, Applied ML, and Industrial Automation
 
 #### Selected work
 - **[Project Ava](https://github.com/Kadenvh/Ava_Main)** · Personal AI development studio with durable session continuity, agent orchestration, and a template framework deployed across ten downstream projects. Tailscale-only.
