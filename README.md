@@ -1,4 +1,4 @@
-### Hi, I'm Kaden VanHoecke 👋
+### Hi, I'm Kaden 👋
 
 **ML Engineer | Production AI Systems for Industrial Automation**
 
